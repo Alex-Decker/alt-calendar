@@ -1,0 +1,11 @@
+.mois{
+    display: flex;
+    flex-direction: column;
+}
+.jour_numero{
+    display: flex;
+    flex-direction: row;
+}
+.numero{
+    width: 15px;
+}

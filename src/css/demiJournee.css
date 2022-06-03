@@ -1,0 +1,28 @@
+.demi_journee {
+  inherits: inherit;
+  display: flex;
+  height: 15px;
+  width: 3vw;
+  margin: 5px;
+  border: 1px solid black;
+  align-content: center;
+  justify-content: center;
+  font-size: 15px;
+  font-style: bold;
+  font-family: monospace;
+}
+.jCour{
+  background-color: rgb(68, 0, 255);
+}
+.jEntreprise{
+  background-color: rgb(8, 250, 81);
+}
+.jFerier{
+  background-color: red;
+}
+.jWeekend{
+  background-color: #b3daff;
+  width: 6.8vw;
+}
+  
+  

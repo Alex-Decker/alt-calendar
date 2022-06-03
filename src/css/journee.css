@@ -1,0 +1,4 @@
+.journee{
+    display: flex;
+    flex-direction: row;
+}

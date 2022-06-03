@@ -1,12 +1,27 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import Bureau from './components/bureau';
 import reportWebVitals from './reportWebVitals';
+import img from '../src/assets/logo3il.png'
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.bundle.min';
+
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <div className='_container'>
+      <div className="_logo">
+        <img src={img} alt="logo3il" className='imgLogo'/>
+      </div>                
+      <div className="_titre">
+          <h1>Créateur de calendrier alternance </h1>
+      </div>
+    </div>
+    <div>
+      <Bureau/>
+    </div>
+  
   </React.StrictMode>,
   document.getElementById('root')
 );

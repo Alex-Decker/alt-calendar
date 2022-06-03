@@ -1,5 +1,5 @@
 body {
-  margin: 0;
+  margin: 2;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -10,4 +10,23 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+._container{
+  height: 100%;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+._titre{
+  font-family: 'Viner Hand ITC', regular;
+  display: flex;
+  font-size: 10px;
+  justify-content: center;
+}
+.imgLogo{
+  padding-left: 25px;
+  padding-top: 25px;
+  width: 200px;
 }

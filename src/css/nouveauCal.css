@@ -1,0 +1,9 @@
+.containt{
+    display: flex;
+    justify-content: center;
+    padding-top: 10%;
+}
+
+.newCalForm{
+    width: 30%;
+}
